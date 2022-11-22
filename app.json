@@ -1,9 +1,9 @@
 {
-  "name": "Prometheus on Heroku - sample app",
-  "description": "An example app that hosts Prometheus on Heroku",
-  "repository": "https://github.com/markgarg/sample-prometheus-on-heroku",
+  "name": "Otterspace Prometheus",
+  "description": "Prometheus Server on Heroku",
+  "repository": "https://github.com/otterspace-xyz/otterspace-prometheus",
   "logo": "https://prometheus.io/assets/prometheus_logo_grey.svg",
-  "keywords": ["prometheus", "sample"],
+  "keywords": ["prometheus"],
   "buildpacks": [
     {
       "url": "https://github.com/heroku/heroku-buildpack-prometheus"
