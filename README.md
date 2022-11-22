@@ -1,4 +1,4 @@
-# Prometheus Server
+# Otterspace Prometheus Server
 
 Uses [Heroku's unofficial buildpack](https://elements.heroku.com/buildpacks/heroku/heroku-buildpack-prometheus).
 
