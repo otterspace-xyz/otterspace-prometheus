@@ -6,7 +6,7 @@ scrape_configs:
     scrape_interval: 5s
     static_configs:
       - targets: ['localhost']
-  - job_name: 'prometheus-otterspace-api'
+  - job_name: 'prometheus-otterspace-api-staging'
     scrape_interval: 30s
     metrics_path: '/metrics'
     scheme: https
