@@ -1,6 +1,6 @@
 global:
-  scrape_interval: 10s
-  scrape_timeout: 10s
+  scrape_interval: 45s
+  scrape_timeout: 45s
 
 scrape_configs:
   - job_name: 'otterspace-api-staging'
@@ -9,3 +9,9 @@ scrape_configs:
     scheme: https
     static_configs:
       - targets: ['otterspace-api-staging.herokuapp.com']
+  - job_name: 'otterspace-api-production'
+    scrape_interval: 30s
+    metrics_path: '/metrics'
+    scheme: https
+    static_configs:
+      - targets: ['otterspace-api.herokuapp.com']
